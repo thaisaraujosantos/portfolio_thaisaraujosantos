@@ -1,0 +1,118 @@
+/* Definições gerais de estilo */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #eaeaea; /* Cor de fundo suave */
+    color: #444; /* Texto levemente mais suave */
+}
+
+/* Cabeçalho */
+header {
+    background-color: #9370DB; /* Cor roxo claro */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em; /* Aumenta o tamanho da fonte */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px; /* Aumenta o espaçamento entre os itens */
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold; /* Deixa os links em negrito */
+    padding: 5px 10px; /* Adiciona preenchimento ao redor dos links */
+    border-radius: 3px; /* Adiciona cantos arredondados */
+    transition: background-color 0.3s ease; /* Animação suave na mudança de cor */
+}
+
+nav ul li a:hover {
+    background-color: #7B68EE; /* Muda para um roxo mais escuro ao passar o mouse */
+}
+
+/* Seções principais */
+main {
+    padding: 30px;
+}
+
+section {
+    margin-bottom: 30px;
+    background-color: #fff; /* Fundo branco para as seções */
+    padding: 20px;
+    border-radius: 8px; /* Cantos arredondados nas seções */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil */
+}
+
+h2 {
+    color: #9370DB; /* Cor roxo claro correspondente ao cabeçalho */
+    font-size: 1.8em;
+    border-bottom: 2px solid #9370DB;
+    padding-bottom: 10px;
+}
+
+/* Formulário de Contato */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #9370DB; /* Cor dos rótulos */
+}
+
+form input, form textarea {
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra interna para os campos */
+}
+
+form button {
+    margin-top: 15px;
+    padding: 12px;
+    background-color: #9370DB;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Animação suave na mudança de cor */
+}
+
+form button:hover {
+    background-color: #7B68EE; /* Cor roxo mais escuro ao passar o mouse */
+}
+
+/* Rodapé */
+footer {
+    background-color: #9370DB; /* Cor de fundo roxo claro, consistente com o tema */
+    color: #fff;
+    text-align: center; /* Centraliza o texto horizontalmente */
+    padding: 20px 0; /* Espaçamento superior e inferior */
+    position: relative;
+    width: 100%; /* Garante que o footer ocupe toda a largura da página */
+    bottom: 0;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil na parte superior do footer */
+}
+
+footer p {
+    margin: 0; /* Remove margens extras ao redor do texto */
+    font-size: 1em; /* Tamanho de fonte padrão */
+}
